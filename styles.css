@@ -615,11 +615,20 @@ a {
 
 .steps-horizontal {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: flex-start;
   justify-content: center;
   gap: 0;
   max-width: 1040px;
   margin: 60px auto 0;
+}
+
+/* Prevent Chrome Translate <font> injection from breaking flex/grid layouts */
+.steps-horizontal > font,
+.testimonial-grid > font,
+.gallery-grid > font {
+  display: contents;
 }
 
 .step-card {
@@ -998,9 +1007,6 @@ a {
   }
   .section-heading {
     font-size: 36px;
-  }
-  .diff-card {
-    padding: 40px 32px;
   }
   .button {
     width: 100%;
