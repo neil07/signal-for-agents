@@ -24,27 +24,69 @@ _角色视角: YC 顶级增长黑客 (/growth)_
 
 遵循极简原则，所有邮件内容不能超过 75-100 个字。个性化称呼是基操，然后需要抛出一个不可思议但真实的结果（比如：只需 60 秒拿回整周素材）。
 
-**邮件模板版本 V1 - “极致省时”版（适用于完全不熟的冷库数据）：**
+**Email Template V1 — “Time Saver” (cold list, never contacted before):**
 
-**主题：这周帮你每周省下 5 小时发 Instagram 的时间**
-你好 {{First Name}},
+**Subject: Save 5 hours a week on your Instagram — starting this week**
 
-看到你在 {{区域/城市名}} 的房产经纪业务做得风生水起。我深知，与其花时间排版和思考今天要发什么帖子，你一定更愿意把时间花在实地带看和签约上。
+Hi {{First Name}},
 
-我们正在邀请几位顶尖经纪人测试一款依托于 WhatsApp 的秘密武器。你只需边开车边对着它发送**一条 10 秒钟的楼盘介绍语音**，在不到 60 秒内，就能收到一条经过剪辑且**可直接发布的卷轴短视频 (Reel)、轮播图和文案**组合包。
+I've been following your work in {{Area / City}} — clearly you're not short on listings. But I'd bet good money you'd rather spend your evenings closing deals than staring at a blank Instagram caption.
 
-**👉 直接在 WhatsApp 上试试，60 秒拿到你的第一个 Content Pack（免费）：**
-[https://wa.me/16502836717?text=Hi,%20I'd%20love%20pilot%20access!](https://wa.me/16502836717?text=Hi,%20I'd%20love%20pilot%20access!)
+We're quietly testing something with a handful of top-producing agents: **send a 10-second voice note on WhatsApp while you're driving between showings**, and get back a **ready-to-post Video Reel, carousel, and caption** — all in under 60 seconds. No prompts, no apps to download.
 
-想先了解更多？看看详细介绍：[插入你的着陆页链接]
+**👉 Try it right now — your first Content Pack is free:**
+[Message us on WhatsApp](https://wa.me/16502836717?text=Hi,%20I'd%20love%20pilot%20access!)
 
-目前处于封闭测试阶段，名额有限。希望你能来试试。
+Want to see how it works first? [Check out the details here](INSERT_LANDING_PAGE_URL)
 
-祝好,
-[你的全名]
-PostPilot 创始人
+We're only onboarding a few agents this week. Would love to have you in.
 
-_优化方向：由于我们面对的是完全生疏的“冷库”数据，这封邮件的核心就是“在第一秒切中痛点（省时、麻烦）”，并在末尾引入稀缺感。_
+Best,
+{{Your Name}}
+Founder, PostPilot
+
+---
+
+**Email Template V2 — “Proof-Led” (warmer lead / follow-up):**
+
+**Subject: How {{Peer Name or “an agent in your market”}} got 12K views on a Reel she didn't edit**
+
+Hey {{First Name}},
+
+Quick one — an agent we work with in {{City}} sent us a voice note about a new listing while sitting in her car. 47 seconds later she had a Video Reel, a carousel, and a caption sitting in her WhatsApp. She posted it that night. 12,000 views. 2 buyer leads in her DMs by morning.
+
+She didn't write a single prompt. She didn't open Canva. She didn't even get out of the car.
+
+That's PostPilot. It lives inside WhatsApp — no new app, no login, no learning curve.
+
+**👉 Send one message, get your first Content Pack free:**
+[Try it on WhatsApp](https://wa.me/16502836717?text=Hi,%20I'd%20love%20pilot%20access!)
+
+We're in early access and only taking a few more agents this week.
+
+Best,
+{{Your Name}}
+Founder, PostPilot
+
+---
+
+**Email Template V3 — “The Nudge” (3-day follow-up, no reply):**
+
+**Subject: Re: Save 5 hours a week on your Instagram**
+
+Hey {{First Name}},
+
+Just bumping this up — totally get it if the timing's off. But if you post on social even once a week, this will genuinely save you hours.
+
+One tap to try: [Message us on WhatsApp](https://wa.me/16502836717?text=Hi,%20I'd%20love%20pilot%20access!)
+
+No signup, no credit card. Just send a voice note and see what comes back.
+
+— {{Your Name}}
+
+---
+
+_Strategy notes: V1 for cold outreach (pain-point hook + scarcity). V2 for warmer leads or as a follow-up with social proof. V3 is a minimal-friction nudge 3 days after no reply — short, casual, one single CTA. All emails keep body under 100 words to respect agent attention spans._
 
 ---
 
