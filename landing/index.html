@@ -29,6 +29,7 @@
     />
     <meta name="author" content="PostPilot" />
     <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#007AFF" />
 
     <!-- Canonical URL — TODO: replace with your production domain -->
     <link rel="canonical" href="https://www.yoursite.com/" />
@@ -36,6 +37,69 @@
     <!-- Favicon — TODO: replace with your logo -->
     <link rel="icon" type="image/png" href="./assets/favicon.png" />
     <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PostPilot",
+        "url": "https://www.yoursite.com/",
+        "logo": "https://www.yoursite.com/assets/favicon.png",
+        "description": "AI-powered social media content creation for real estate agents via WhatsApp.",
+        "sameAs": []
+      }
+    </script>
+
+    <!-- Structured Data: SoftwareApplication -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "PostPilot",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "WhatsApp",
+        "description": "Send a voice note and listing photos on WhatsApp, get back a ready-to-post Video Reel, carousel, and caption for Instagram, TikTok, and Facebook.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Free pilot — first Content Pack at no cost"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "2",
+          "bestRating": "5"
+        }
+      }
+    </script>
+
+    <!-- Structured Data: FAQPage (enables rich snippets in Google) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Will PostPilot content sound like generic AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The system learns your personal tone, idioms, and local market terminology from the voice notes you send, ensuring the final output sounds 100% authentic to your voice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to enter a credit card to try PostPilot?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not for the pilot. You can start testing the system instantly through WhatsApp. Only early testers will lock in the discounted lifetime rate if they choose to continue."
+            }
+          }
+        ]
+      }
+    </script>
 
     <!-- Open Graph / Facebook / LinkedIn / iMessage -->
     <meta property="og:type" content="website" />
@@ -72,9 +136,14 @@
       content="https://www.yoursite.com/assets/og-share-image.png"
     />
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts (preconnect + preload for LCP) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
@@ -83,25 +152,31 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="nav-bar">
-      <div class="nav-container">
-        <div class="logo">PostPilot</div>
-        <a
-          href="https://wa.me/16502836717?text=Hi,%20I'd%20love%20pilot%20access!"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button button-small button-secondary"
-          >Get My Free Content Pack</a
-        >
-      </div>
-    </nav>
+    <header>
+      <nav class="nav-bar" aria-label="Main navigation">
+        <div class="nav-container">
+          <a href="/" class="logo" aria-label="PostPilot — Home">PostPilot</a>
+          <a
+            href="https://wa.me/16502836717?text=Hi,%20I'd%20love%20pilot%20access!"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button button-small button-secondary"
+            aria-label="Get My Free Content Pack on WhatsApp"
+            >Get My Free Content Pack</a
+          >
+        </div>
+      </nav>
+    </header>
 
     <main>
       <!-- Hero Section -->
-      <section class="hero-section">
+      <section
+        class="hero-section"
+        aria-label="PostPilot — AI social media content for real estate agents"
+      >
         <div class="hero-split-container">
           <div class="hero-content">
-            <div class="pill-badge">
+            <div class="pill-badge" role="text">
               <svg
                 width="14"
                 height="14"
@@ -589,12 +664,16 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="footer-content">
-        <span>&copy; 2026 PostPilot.</span>
+        <span
+          >&copy; 2026 PostPilot. AI social media content for real estate
+          agents.</span
+        >
         <a
           href="https://wa.me/16502836717"
           target="_blank"
           rel="noopener noreferrer"
           class="footer-link"
+          aria-label="Contact PostPilot support on WhatsApp"
           >Support / Contact</a
         >
       </div>
