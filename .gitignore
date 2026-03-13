@@ -1,0 +1,6 @@
+.DS_Store
+.agents
+.env
+*.zip
+tmp_*
+*.swp
