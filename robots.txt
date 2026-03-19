@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://postpilot.agent-efficiency-lab.com/sitemap.xml
